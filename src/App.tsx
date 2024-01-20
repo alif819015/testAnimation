@@ -3,8 +3,9 @@ import "./App.css";
 function App() {
   return (
     <div className="main">
-      <div className="box-1"></div>
-      <h1>This is a header</h1>
+      {/* <div className="box-1"></div>
+      <div className="box-2"></div> */}
+      <button className="btn">Click me</button>
     </div>
   );
 }
