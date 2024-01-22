@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: moving;
+    animation-duration: 1s;
+    animation-delay: 400ms;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes moving {
+    /* from{
+  transform: translate(0);
+    }
+    to{
+  transform: translate(150px);
+    } */
+    0%{
+      transform: translate(0);
+      background-color: blue;
+    }
+    25%{
+      transform: translate(100px);
+    }
+    50%{
+      transform: translate(100px, 100px);
+    }
+    75%{
+      transform: translate(-100px, 100px);
+    }
+    100%{
+      transform: translate(-100px,-100px);
+    }
+  }

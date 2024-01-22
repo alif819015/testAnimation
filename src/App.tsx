@@ -1,11 +1,11 @@
 import "./App.css";
+import Box1Animation from "./components/Box1Animation/Box1Animation";
+
 
 function App() {
   return (
-    <div className="main">
-      {/* <div className="box-1"></div>
-      <div className="box-2"></div> */}
-      <button className="btn">Click me</button>
+    <div>
+      <Box1Animation></Box1Animation>
     </div>
   );
 }
